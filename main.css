@@ -59,7 +59,7 @@ hr {
     margin: 50px;
     height: 100%;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 10%
 }
 
@@ -92,4 +92,18 @@ h1 {
     padding: 20px 40px;
     border-radius: 5px;
   
+}
+
+.fixedElement {
+    position: fixed;
+    bottom: 0;
+    left: -5%;
+    width: 20rem;
+    -webkit-transform:rotate(90deg);
+}
+
+
+
+.test {
+    height: 1500px;
 }
