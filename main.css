@@ -31,7 +31,8 @@ nav {
 
 }
 
-ul li, .logo {
+ul li,
+.logo {
     display: inline-block;
     padding: 10px;
     font-size: 13px;
@@ -64,8 +65,29 @@ h1 {
     font-family: "Poppins";
     font-weight: 800;
     font-size: 55px;
+    margin-bottom: 0;
+    line-height: 1.2;
 }
 
-#disc {
+#mini {
     color: #8A93AD;
+    margin-top: 0;
+}
+
+#description {
+    line-height: 1.5;
+    width: 80%;
+}
+
+#intro {
+    line-height: 0;
+    margin-bottom: 0;
+    color: #8A93AD;
+}
+
+#learn-more {
+    border: 1px solid #5EE9C5;
+    padding: 20px 40px;
+    border-radius: 5px;
+  
 }
