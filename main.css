@@ -102,6 +102,9 @@ h1 {
     -webkit-transform:rotate(90deg);
 }
 
+.fa:hover {
+    color: #5EE9C5 !important;
+}
 
 
 .test {
