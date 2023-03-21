@@ -6,9 +6,10 @@ I have experience in both front-end and back-end development, as well as experie
 
 Please feel free to explore my portfolio and reach out to me if you have any questions or inquiries.
 
-Technologies Used: 
+Technologies Used:
 
-   - CSS
-   - HTML
-   - Adobe XD
-   - Vanilla Javascript
+       - HTML
+       - CSS
+       - Adobe XD
+       - Vanilla JavaScript
+       
