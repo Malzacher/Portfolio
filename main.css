@@ -3,6 +3,7 @@
 :root {
     --main-color: #CED7F3;
     --main-bg-color: #0D192D;
+    --link-colour: #5EE9C5;
 }
 
 * {
@@ -39,7 +40,8 @@ ul li,
 }
 
 ul li:hover {
-    color: #5EE9C5;
+    color: var(--link-colour) !important;
+    ;
 }
 
 hr {
@@ -49,9 +51,11 @@ hr {
 
 #resume {
     padding: 10px;
-    border: 1px solid #5EE9C5;
+    border: 1px solid var(--link-colour) !important;
+    ;
     border-radius: 5px;
-    color: #5EE9C5;
+    color: var(--link-colour) !important;
+    ;
 }
 
 #hero-container {
@@ -88,16 +92,17 @@ h1 {
 }
 
 #learn-more {
-    border: 1px solid #5EE9C5;
+    border: 1px solid var(--link-colour) !important;
+    ;
     padding: 20px 40px;
     border-radius: 5px;
-  
+
 }
 
 .fixedElement {
     position: fixed;
     bottom: 0;
-    left: -5%;
+    left: -66px;
     width: 20rem;
     -webkit-transform:rotate(90deg);
 }
@@ -107,14 +112,33 @@ h1 {
     line-height: 2;
     width: 32px;
     vertical-align: bottom;
-    left: 5.25%;
+    left: 80px;
     bottom: 22%;
 }
 
 .fa:hover {
-    color: #5EE9C5 !important;
+    color: var(--link-colour) !important;
 }
 
 .test {
     height: 1500px;
+}
+
+.left-tech {
+    float: left;
+    width: 50%;
+}
+
+.right-tech {
+    float: right;
+    width: 50%;
+}
+
+.about-container {
+    display: block;
+    margin: 50px;
+    height: 100%;
+    width: 50%;
+    margin-left: 13%;
+    margin-top: 10%
 }
