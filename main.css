@@ -149,12 +149,12 @@ h1 {
     float: left;
     color: var(--link-colour) !important;
     box-shadow:
-    20px 20px 0px -3px var(--link-colour) !important;
+        20px 20px 0px -3px var(--link-colour) !important;
 }
 
 #photo:hover {
     box-shadow:
-    10px 10px 0px -3px var(--link-colour) !important;
+        10px 10px 0px -3px var(--link-colour) !important;
 }
 
 #overlay {
@@ -172,4 +172,32 @@ h1 {
 .about-container,
 #photo {
     margin-top: 300px;
+}
+
+.fa-caret-right {
+    color: var(--link-colour) !important;
+}
+
+.small-heading {
+    color: #8A93AD;
+}
+
+.link-heading {
+    color: var(--link-colour) !important;
+}
+
+.project-container {
+    width: calc(100% - 13%);
+    margin: 13%;
+    display: inline-block;
+}
+
+.project-layout {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-layout * {
+    flex: 1 1 calc(50% - 13%);
 }
