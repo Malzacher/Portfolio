@@ -131,7 +131,7 @@ h1 {
     width: 50%;
 }
 
-.about-container {
+#about-container {
     display: block;
     margin: 50px;
     height: 100%;
@@ -167,7 +167,7 @@ img:hover {
     cursor: pointer;
 }
 
-.about-container,
+#about-container,
 #photo {
     margin-top: 300px;
 }
@@ -184,7 +184,7 @@ img:hover {
     color: var(--link-colour) !important;
 }
 
-.project-container {
+#project-container {
     margin-top: 300px;
     width: calc(100% - 23%);
     margin-left: 13%;
@@ -226,4 +226,8 @@ img:hover {
 #btn-right {
     float: right;
     margin-left: 10px;
+}
+
+.project-layout div {
+    margin-bottom: 80px;
 }

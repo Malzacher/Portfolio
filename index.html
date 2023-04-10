@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Malzacher</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts.js"></script>
 
 </head>
 
@@ -29,8 +31,8 @@
         </div>
         <nav>
             <ul>
-                <li>01. About</li>
-                <li>02. Projects</li>
+                <a href="#about-container"><li>01. About</li></a>
+                <a href="#project-container"></a><li>02. Projects</li>
                 <li>03. Contact</li>
                 <li id="resume">Resume</li>
             </ul>
@@ -48,10 +50,8 @@
         <button id="learn-more">Learn more about me</button>
     </div>
 
-    <div class="about-container">
-
+    <div id="about-container">
         <p class="small-heading">01. About Me</p>
-
         <p id="description">I am a web developer with a passion for creating engaging websites. Fluent in HTML, CSS, and
             JavaScript, I bring technical expertise and creativity to every project. Currently studying at RMIT
             University, I am eager to expand my skills and make a difference in the web development industry. Thank you
@@ -72,11 +72,12 @@
             </div>
         </div>
     </div>
+
     <div id=overlay>
         <img id="photo" src="images/nick.png" alt="">
     </div>
 
-    <div class="project-container">
+    <div id="project-container">
         <p class="small-heading">02. My Projects</p>
 
         <div class="project-layout">
@@ -93,7 +94,7 @@
             <div><img src="images/true-or-false-site.png" alt=""></div>
 
 
-            <div><img src="images/true-or-false-site.png" alt=""></div>
+            <div><img src="images/team-allocation-system.png" alt=""></div>
             <div>
                 <p id="right-text" class="link-heading">CSV & Excel Parser with Team Allocation System:</p>
                 <p id="right-text">This application is a web-based team allocation system that allows users to upload
@@ -107,8 +108,33 @@
                 <button id="btn-right"
                     onclick="window.location.href='https://malzacher.github.io/true-or-false/';">site()</button>
             </div>
-        </div>
 
+            <div>
+                <p class="link-heading">First Personal Portfolio:</p>
+                <p>As a learning exercise, I created my first personal portfolio for web development using HTML and CSS.
+                    It showcases my skills and projects to potential employers and clients, and includes information
+                    about my background, education, work experience, and projects I have worked on. I was able to create
+                    a visually appealing and functional website that demonstrates my abilities.</p>
+                <br>
+                <button onclick="window.location.href='https://github.com/Malzacher/PersonalProfile/';">repo()</button>
+                <button onclick="window.location.href='https://malzacher.github.io/PersonalProfile/';">site()</button>
+            </div>
+            <div><img src="images/personal-site.png" alt=""></div>
+
+            <div><img src="images/life-site.png" alt=""></div>
+            <div>
+                <p id="right-text" class="link-heading">Login & Registration Site:</p>
+                <p id="right-text">I designed and developed a meditation website with registration and login
+                    functionality, using a combination of HTML, CSS, PHP, MySQL, and JavaScript. Users can register with
+                    their personal details and create a secure account, which allows them to access a variety of guided
+                    meditation resources, customized to their preferences and experience level.</p>
+                <br>
+                <button id="btn-right"
+                    onclick="window.location.href='https://github.com/Malzacher/Web-Programming-a2';">repo()</button>
+                <button id="btn-right"
+                    onclick="window.location.href='https://malzacher.github.io/true-or-false/';">site()</button>
+            </div>
+        </div>
 
     </div>
 
