@@ -28,7 +28,7 @@ nav {
 }
 
 .logo {
-    margin: auto;
+    margin-top: 16px;
 
 }
 
@@ -62,7 +62,8 @@ hr {
     height: 100%;
     width: 50%;
     margin-left: 13%;
-    margin-top: 10%
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -93,7 +94,7 @@ h1 {
     border: 1px solid var(--link-colour) !important;
     padding: 20px 40px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 
 .fixedElement {
@@ -137,7 +138,7 @@ h1 {
     height: 100%;
     width: 50%;
     margin-left: 13%;
-    margin-top: 300px;
+    margin-top: 200px;
     float: left;
 }
 
@@ -169,7 +170,8 @@ img:hover {
 
 #about-container,
 #photo {
-    margin-top: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .fa-caret-right {
@@ -185,7 +187,8 @@ img:hover {
 }
 
 #project-container {
-    margin-top: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     width: calc(100% - 23%);
     margin-left: 13%;
     margin-right: 10%;
@@ -230,4 +233,25 @@ img:hover {
 
 .project-layout div {
     margin-bottom: 80px;
+}
+
+.page-break {
+    width: 80%;
+}
+
+.contact-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: calc(100%-26%);
+    margin: 26%
+}
+
+/* When the message is sent successfully alert will be displayed */
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 5vh;
+    display: none;
 }

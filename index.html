@@ -31,14 +31,15 @@
         </div>
         <nav>
             <ul>
-                <a href="#about-container"><li>01. About</li></a>
-                <a href="#project-container"></a><li>02. Projects</li>
-                <li>03. Contact</li>
-                <li id="resume">Resume</li>
+                <a href="#sect-1"><li>01. About</li></a>
+                <a href="#sect-2"><li>02. Projects</li></a>
+                <a href="#sect-3"><li>03. Contact</li></a>
+                <a href="Nicholas-Malzacher-CV.pdf" ges download="Nicholas-Malzacher-CV"><li id="resume">Resume</li></a>
             </ul>
         </nav>
     </div>
-    <hr />
+
+    <hr id="page-break">
 
     <div id="hero-container">
         <p id="intro">Hi, my name is</p>
@@ -47,8 +48,10 @@
         <p id="description">I am a web developer with a passion for creating and designing engaging websites. I am
             currently studying at
             RMIT University, I am eager to expand my skills and make a difference in the web development industry.</p>
-        <button id="learn-more">Learn more about me</button>
+            <a href="#sect-1"><button id="learn-more">Learn more about me</button></a>
     </div>
+
+    <hr id="sect-1" class="page-break">
 
     <div id="about-container">
         <p class="small-heading">01. About Me</p>
@@ -76,6 +79,8 @@
     <div id=overlay>
         <img id="photo" src="images/nick.png" alt="">
     </div>
+
+    <hr id="sect-2" class="page-break">
 
     <div id="project-container">
         <p class="small-heading">02. My Projects</p>
@@ -135,8 +140,41 @@
                     onclick="window.location.href='https://malzacher.github.io/true-or-false/';">site()</button>
             </div>
         </div>
-
     </div>
+
+    <hr id="sect-3" class="page-break">
+
+    <div class="contact-container" id="contant"><br><br><br>
+        <h1 class="title is-3 animate__animated animate__slideInRight animate__slower" style="text-align:center;">
+          Contact Me</h1>
+        <div class="wrapper animate__animated animate__slideInLeft animate__slower">
+          <div class="alert">Your message has been sent</div>
+          <form id="contactForm" style="text-align:center;">
+      
+            <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Name *</label>
+            <div class="control has-icons-left">
+              <input type="text" name="name" id="name" class="input is-success is-normal" placeholder="Enter Your Name" style="height:7vh;" required>
+              <span class="icon is-left is-small">
+                <i class="fa fa-user"></i>
+              </span>
+            </div>
+      
+            <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Email *</label>
+            <div class="control has-icons-left">
+              <input type="email" name="email" id="email" class="input is-success is-normal" placeholder="Enter your email" style="height:7vh;" required>
+              <span class="icon is-left is-small">
+                <i class="fa fa-envelope"></i>
+              </span>
+            </div>
+      
+            <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Message *</label>
+            <textarea class="textarea is-success" id="message" placeholder="" required></textarea>
+            <br><br>
+      
+            <button class="button is-large is-fullwidth is-danger is-light" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
 
 
     <div class="test"></div>
