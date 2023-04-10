@@ -208,3 +208,15 @@ img:hover {
 .project-layout div img {
     width: 100%;
 }
+
+.project-layout div button {
+    color: var(--link-colour);
+    width: 40%;
+    border: 1px solid var(--link-colour);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-layout div button:hover {
+    cursor: pointer;
+}
