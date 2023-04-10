@@ -52,10 +52,8 @@ hr {
 #resume {
     padding: 10px;
     border: 1px solid var(--link-colour) !important;
-    ;
     border-radius: 5px;
     color: var(--link-colour) !important;
-    ;
 }
 
 #hero-container {
@@ -188,8 +186,8 @@ img:hover {
 
 .project-container {
     margin-top: 300px;
-    width: calc(100% - 20%);
-    margin-left: 10%;
+    width: calc(100% - 23%);
+    margin-left: 13%;
     margin-right: 10%;
     display: inline-block;
 }
@@ -219,4 +217,13 @@ img:hover {
 
 .project-layout div button:hover {
     cursor: pointer;
+}
+
+#right-text {
+    text-align: right;
+}
+
+#btn-right {
+    float: right;
+    margin-left: 10px;
 }
