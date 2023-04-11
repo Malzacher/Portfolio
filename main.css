@@ -256,20 +256,16 @@ img:hover {
     display: none;
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
     .hero-container {
         margin-left: 10%;
         margin-right: 10%;
         width: 100%;
     }
-    
-    .fixedElement hr, .icons {
+
+    .fixedElement hr,
+    .icons {
         display: none;
     }
 
-
-
-
 }
-
-
