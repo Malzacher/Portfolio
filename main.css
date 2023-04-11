@@ -236,10 +236,11 @@ img:hover {
 }
 
 .contact-container {
+    width: calc(100%-26%);
+    margin-left: 13%;
+    margin-right: 13%;
     margin-top: 200px;
     margin-bottom: 200px;
-    width: calc(100%-26%);
-    margin: 26%
 }
 
 input[type=text],
