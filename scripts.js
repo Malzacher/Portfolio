@@ -36,6 +36,6 @@ function sendEmail() {
     Subject: "You Got an Email from: " + document.getElementById("email").value,
     Body: "Name: " + document.getElementById("name").value + "<br> Email:" + document.getElementById("email").value + "<br> Subject:" + document.getElementById("subject").value
   }).then(
-    message => alert("mail sent successfully! Thank you for your message!")
+    message => alert("Mail sent successfully! Thank you for your message!")
   );
 }
