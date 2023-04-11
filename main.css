@@ -118,10 +118,6 @@ h1 {
     color: var(--link-colour) !important;
 }
 
-.test {
-    height: 1500px;
-}
-
 .left-tech {
     float: left;
     width: 50%;

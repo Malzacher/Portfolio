@@ -153,25 +153,21 @@
     <hr id="sect-3" class="page-break">
 
     <div class="contact-container">
-        <form action="/action_page.php">
+        <form onsubmit="sendEmail(); reset(); return false;">
             <label for="name">Full Name:</label>
-            <input type="text" id="name" name="firstname" placeholder="Your Name">
+            <input type="text" id="name" name="firstname" placeholder="Your Name" required>
 
             <label for="email">Email:</label>
-            <input type="text" id="email" name="lastname" placeholder="Your Email">
+            <input type="text" id="email" name="lastname" placeholder="Your Email" required>
 
             <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject">
-
-            <label for="subject">Description:</label>
-            <textarea id="subject" name="subject" placeholder="Send me a message! :)" style="height:200px"></textarea>
+            <input type="text" id="subject" name="subject" placeholder="Send me a Message! :)" required
+                style="height:200px">
 
             <input type="submit" value="Submit">
         </form>
     </div>
-
-
-    <div class="test"></div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
