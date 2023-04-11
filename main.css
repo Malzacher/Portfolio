@@ -256,16 +256,45 @@ img:hover {
     display: none;
 }
 
-@media (max-width: 750px) {
-    .hero-container {
+@media (max-width: 1000px) {
+    #hero-container {
         margin-left: 10%;
         margin-right: 10%;
-        width: 100%;
+        width: calc(100% - 20%);
     }
 
     .fixedElement hr,
     .icons {
         display: none;
+    }
+
+    #mini,
+    #description {
+        width: 100%;
+    }
+
+    #learn-more {
+        width: 70%;
+    }
+
+    #about-container {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: calc(100% - 20%);
+        margin-bottom: 0;
+    }
+
+    /* center the photo div */
+    #overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-bg-color);
+    }
+
+    #photo {
+        max-width: 100%;
+        height: auto;
     }
 
 }
