@@ -288,6 +288,12 @@ input[type=submit]:hover {
 
     #learn-more {
         width: 70%;
+        transition: 500ms;
+    }
+
+    #learn-more:hover {
+        cursor: pointer;
+        color: var(--link-colour);
     }
 
     #about-container {
