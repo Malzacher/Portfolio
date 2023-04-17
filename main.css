@@ -316,3 +316,34 @@ input[type=submit]:hover {
         height: auto;
     }
 }
+
+@media (max-width: 630px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    nav {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+
+
+    .project-layout div {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul a li{
+        font-size: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        align-self: center;
+        left: auto;
+        right: auto;
+    }
+}
